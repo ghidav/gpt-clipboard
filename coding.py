@@ -4,7 +4,7 @@ import sys
 import os
 
 def main(input_text):
-    os.environ["OPENAI_API_KEY"] = "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"
+    os.environ["OPENAI_API_KEY"] = "..."
     client = OpenAI()
 
     response = client.chat.completions.create(
